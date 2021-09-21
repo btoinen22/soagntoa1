@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Fichier de métadonnées 'C:\Users\benoi\source\repos\soagntoa1\soagntoa1\soagntoa1\bin\Debug\netstandard2.0\ref\soagntoa1.dll' introuvable
+dotnet_diagnostic.CS0006.severity = warning

@@ -1,10 +1,6 @@
-﻿using soagntoa1.Services;
-using soagntoa1.Views;
-using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
-namespace soagntoa1
+namespace Notes
 {
     public partial class App : Application
     {
@@ -12,8 +8,6 @@ namespace soagntoa1
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 
